@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.quiz{
+    padding: 5% 0px 5% 0px;
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.options{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    height: 40%;
+}
+.option{
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #4692e4e4;
+    color:white;
+    text-align: center;
+}

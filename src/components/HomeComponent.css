@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.home-bt{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(7, 185, 7);
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+}

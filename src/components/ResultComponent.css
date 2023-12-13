@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    padding: 20px;
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: white;
+
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+}
